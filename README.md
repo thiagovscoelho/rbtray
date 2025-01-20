@@ -13,10 +13,18 @@ whichever one works for your needs.
 RBTray is free, open source, and is distributed under the terms of the [GNU
 General Public Licence](http://www.gnu.org/copyleft/gpl.html).
 
+This fork by thiagovscoelho and SMSourov adds the following changes:
+
+ - Added customizable hot key feature.
+ - Made appropriate installers for both 32 and 64 bit OS.
+
+Benbuck Nason, the original developer, has decided not to add new features to RBTray,
+so this fork is independent as of now.
+
 ## Download
 
-- [64 bit binaries](x64)
-- [32 bit binaries](x86)
+- [64 bit binaries](https://github.com/thiagovscoelho/rbtray/releases/download/4.6.0.0/RBTray.v4.6.0.0.x64.installer.exe)
+- [32 bit binaries](https://github.com/thiagovscoelho/rbtray/releases/download/4.6.0.0/RBTray.v4.6.0.0.x86.installer.exe)
 - [Original RBTray](https://sourceforge.net/projects/rbtray/files/)
 
 ## Installing
@@ -32,6 +40,21 @@ On Windows 10 that is located at
 But a **_much_** quicker way to access it is to press "`WIN` + `R`" then type
 (or copy & paste) `shell:Startup`
 
+## Configuration
+
+In the installation directory, there is a file named `rbtray.ini`. You can customize the shortcut in there. Currently the supported shortcuts are:
+
+1. For the modifiers:
+   - Alt+Control
+   - Alt+Shift
+  
+2. For the keys:
+   - Down
+   - Up
+   - M
+
+The **default** shortcut is `Alt-Shift-Down`
+
 ## Using
 
 To minimize a program to the system tray, you can use any of these methods:
@@ -45,6 +68,8 @@ program's window, single-click the program's icon in the tray. Alternatively,
 you can right-click on the tray icon which will bring up a popup menu, then
 select **Restore Window**.
 
+Note: For Microsoft Store apps or apps packaged in APPX, APPXBUNDLE, MSIX, MSIXBUNDLE, a generic program icon will be shown.
+
 In some cases, the first two methods cause problems with other software because
 of they way they integrate into Windows using a hook to intercept mouse events.
 In these cases, you can use the `--no-hook` option, which means that only the
@@ -54,6 +79,10 @@ hook.
 
 If the Shift+Alt+Down hotkey conflicts with another keyboard shortcut you have
 set up, edit the file rbtray.ini to change it to another combination.
+
+## Warning
+
+If you play games that contains **Anti-Cheat** softwares, it is **RECOMMENDED** to use the **NO HOOK** method. 
 
 ## Exiting
 
@@ -77,6 +106,10 @@ Ondrej Petrzilka <https://github.com/OndrejPetrzilka>
 Andrzej Włoszczyński <https://github.com/Andrzej-W>
 
 Hugo Locurcio <https://github.com/Calinou>
+
+Thiago V. S. Coelho: <https://github.com/thiagovscoelho>
+
+Sk. Mashrur Sourov: <https://github.com/SMSourov>
 
 ## Other
 
