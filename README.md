@@ -113,8 +113,7 @@ Sk. Mashrur Sourov: <https://github.com/SMSourov>
 
 ## Other
 
-For original forum, bug tracker, etc. see [RBTray SourceForge project page]
-(<http://sourceforge.net/projects/rbtray/>).
+For original forum, bug tracker, etc. see [RBTray SourceForge project page](<http://sourceforge.net/projects/rbtray/>).
 
 Copyright &copy; 1998-2011 Nikolay Redko, J.D. Purcell
 
