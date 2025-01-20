@@ -18,7 +18,7 @@ This fork by thiagovscoelho and SMSourov adds the following changes:
  - Added customizable hot key feature.
  - Made appropriate installers for both 32 and 64 bit OS.
 
-Benbuck Nason, the developer of the original version on Github, has decided not to
+Benbuck Nason, the developer of [the first version on Github](https://github.com/benbuck/rbtray), has decided not to
 add new features to RBTray, so this fork is independent as of now.
 
 ## Download
